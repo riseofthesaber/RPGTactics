@@ -46,11 +46,11 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 
 # Binary Files
-Binaries/*
+**/Binaries/*
 Plugins/*/Binaries/*
 
 # Builds
-Build/*
+**/Build/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
@@ -72,4 +72,10 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Other stuff
+**/Android_ASTC/*
+**/WindowsNoEditor/*
+**/Windows/*
+**/DerivedDataCache/*
 
